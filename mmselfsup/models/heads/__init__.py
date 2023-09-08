@@ -10,11 +10,13 @@ from .mocov3_head import MoCoV3Head
 from .multi_cls_head import MultiClsHead
 from .simmim_head import SimMIMHead
 from .swav_head import SwAVHead
-
+###################################################
+from .snn_head import SNNLossHead
+from .cls_head_twolayers import ClsHead_Twolayers
 __all__ = [
     'ContrastiveHead', 'ClsHead', 'LatentPredictHead', 'LatentClsHead',
     'LatentCrossCorrelationHead', 'MultiClsHead', 'SwAVHead',
     'MAEFinetuneHead', 'MAEPretrainHead', 'MoCoV3Head', 'SimMIMHead',
     'CAEHead', 'MAELinprobeHead', 'MaskFeatFinetuneHead',
-    'MaskFeatPretrainHead'
+    'MaskFeatPretrainHead', 'SNNLossHead', 'ClsHead_Twolayers',
 ]

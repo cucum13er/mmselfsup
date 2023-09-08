@@ -15,11 +15,13 @@ try:
     from .res_layer_extra_norm import ResLayerExtraNorm
 except ImportError:
     ResLayerExtraNorm = None
-
+#############################################################################
+from .ConvG import ConvG
+from .bases import FCDDNet
 __all__ = [
     'Accuracy', 'accuracy', 'ExtractProcess', 'MultiExtractProcess',
     'GatherLayer', 'knn_classifier', 'MultiPooling', 'MultiPrototypes',
     'build_2d_sincos_position_embedding', 'Sobel', 'MultiheadAttention',
     'TransformerEncoderLayer', 'CAETransformerRegressorLayer', 'Encoder',
-    'ResLayerExtraNorm'
+    'ResLayerExtraNorm','ConvG', 'FCDDNet'
 ]

@@ -20,10 +20,15 @@ from .simclr import SimCLR
 from .simmim import SimMIM
 from .simsiam import SimSiam
 from .swav import SwAV
-
+##################################################################################################
+from .simclr_multidevice import SimCLR_Multidevice
+from .simclr_multidevice_cls import SimCLR_Multidevice_cls
+from .simclr_multidevice_nolabel import SimCLR_Nolabel
+from .moco_label import MoCo_label
 __all__ = [
     'BaseModel', 'BarlowTwins', 'BYOL', 'Classification', 'DeepCluster',
     'DenseCL', 'InterCLRMoCo', 'MoCo', 'NPID', 'ODC', 'RelativeLoc',
     'RotationPred', 'SimCLR', 'SimSiam', 'SwAV', 'MAE', 'MoCoV3', 'SimMIM',
-    'MMClsImageClassifierWrapper', 'CAE', 'MaskFeat'
+    'MMClsImageClassifierWrapper', 'CAE', 'MaskFeat','SimCLR_Multidevice', 'SimCLR_Multidevice_cls', 'SimCLR_Nolabel',
+    'MoCo_label'
 ]
