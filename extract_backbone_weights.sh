@@ -1,0 +1,28 @@
+# DIV2K
+# get backbone weights
+python ./tools/model_converters/extract_backbone_weights.py work_dirs/selfsup/simclr/simclr_resnet18_epoch2000_temp0_1_DIV2K/epoch_2000.pth work_dirs/selfsup/simclr/simclr_resnet18_epoch2000_temp0_1_DIV2K/weights_2000.pth
+
+python ./tools/model_converters/extract_backbone_weights.py work_dirs/selfsup/simclr/simclr_resnet18_epoch2000_temp0_07_DIV2K/epoch_2000.pth work_dirs/selfsup/simclr/simclr_resnet18_epoch2000_temp0_07_DIV2K/weights_2000.pth
+
+python ./tools/model_converters/extract_backbone_weights.py work_dirs/selfsup/simclr/simclr_resnet18_epoch2000_temp0_05_DIV2K/epoch_2000.pth work_dirs/selfsup/simclr/simclr_resnet18_epoch2000_temp0_05_DIV2K/weights_2000.pth
+
+python ./tools/model_converters/extract_backbone_weights.py work_dirs/selfsup/simclr/simclr_resnet18_epoch2000_temp0_03_DIV2K/epoch_2000.pth work_dirs/selfsup/simclr/simclr_resnet18_epoch2000_temp0_03_DIV2K/weights_2000.pth
+
+python ./tools/model_converters/extract_backbone_weights.py work_dirs/selfsup/simclr/simclr_resnet18_epoch2000_temp0_1_DIV2K_aniso/epoch_2000.pth work_dirs/selfsup/simclr/simclr_resnet18_epoch2000_temp0_1_DIV2K_aniso/weights_2000.pth
+
+
+# Flickr2K
+# get backbone weights
+python ./tools/model_converters/extract_backbone_weights.py work_dirs/selfsup/simclr/simclr_resnet18_epoch1000_temp0_1_Flickr2K/epoch_1000.pth work_dirs/selfsup/simclr/simclr_resnet18_epoch1000_temp0_1_Flickr2K/weights_1000.pth
+
+# SupER
+# get backbone weights
+python ./tools/model_converters/extract_backbone_weights.py work_dirs/selfsup/simclr/simclr_resnet18_epoch1000_temp0_1_SupER/epoch_1000.pth work_dirs/selfsup/simclr/simclr_resnet18_epoch1000_temp0_1_SupER/weights_1000.pth
+python ./tools/model_converters/extract_backbone_weights.py work_dirs/selfsup/simclr/simclr_resnet18_epoch2000_temp0_07_SupER/epoch_2000.pth work_dirs/selfsup/simclr/simclr_resnet18_epoch2000_temp0_07_SupER/weights_2000.pth
+
+
+
+
+
+
+
